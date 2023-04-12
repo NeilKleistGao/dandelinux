@@ -1,3 +1,5 @@
+echo "starting build dandelinux..."
+
 sudo pacman -Sy --needed archiso
 
 cp -rf /usr/share/archiso/configs/releng ./profile

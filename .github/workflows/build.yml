@@ -20,4 +20,4 @@ jobs:
         with:
           submodules: recursive
       - name: run docker container
-        uses: docker://archlinux:latest
+        uses: ./
