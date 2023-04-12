@@ -2,4 +2,4 @@
 
 echo "starting build dandelinux..."
 
-pacman -Sy archiso
+echo "Y" | pacman -Sy --needed sudo archiso
