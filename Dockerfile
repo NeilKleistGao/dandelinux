@@ -1,1 +1,5 @@
-FROM nlhomme/archiso-builder:latest
+FROM archlinux:latest
+
+COPY build.sh /build.sh
+
+ENTRYPOINT ["/build.sh"]
