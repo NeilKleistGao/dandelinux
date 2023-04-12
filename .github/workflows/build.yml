@@ -12,14 +12,6 @@ on:
       - README.md
       - .gitignore
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive
-      - name: run docker
-        runs:
-          using: 'docker'
-          image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
