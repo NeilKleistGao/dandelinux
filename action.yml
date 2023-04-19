@@ -1,8 +1,0 @@
-# action.yml
-name: "dandelinux"
-description: "build dandelinux"
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - "--privileged=true"
