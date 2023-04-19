@@ -16,8 +16,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Docker
-        run:  curl -fsSL https://test.docker.com -o test-docker.sh & sudo sh test-docker.sh
+      - uses: docker-practice/actions-setup-docker@master
+        timeout-minutes: 12
       - uses: actions/checkout@v2
         with:
           submodules: recursive
