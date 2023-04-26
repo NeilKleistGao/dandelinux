@@ -3,4 +3,4 @@ if [ ! -d "output" ];then
 fi
 
 docker build -t dandelinux .
-docker run --rm --privileged=true --mount type=bind,source=$(pwd)/output,target=/home dandelinux
+docker run --rm --privileged=true -v $(pwd)/output:/output -v $(pwd)/dandelinux:/dandelinux dandelinux
