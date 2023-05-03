@@ -1,0 +1,7 @@
+* v0.0.2
+** Pending Add necessary packages in packages.x86_64
+- State "Pending"    from              [2023-05-03 周三 22:03]
+** Pending Install Gnome
+- State "Pending"    from              [2023-05-03 周三 22:04]
+** Pending Add calamares
+- State "Pending"    from              [2023-05-03 周三 22:04]
