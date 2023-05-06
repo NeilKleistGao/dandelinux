@@ -1,1 +1,9 @@
 # TODO: Add basic packages
+# basic tools
+vim
+net-tools
+tree
+
+# used for booting dandelinux
+grub
+os-prober
