@@ -125,3 +125,7 @@ zsh
 
 # booting
 os-prober
+
+# networking
+net-tools
+networkmanager
