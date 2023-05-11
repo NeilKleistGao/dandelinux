@@ -1,1 +1,1 @@
-/usr/lib/systemd/system/systemd-networkd-wait-online.service
+/usr/lib/systemd/system/NetworkManager-wait-online.service
