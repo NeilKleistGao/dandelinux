@@ -15,7 +15,7 @@ mkdir /mnt/boot
 mount /dev/sda3 /mnt/boot
 
 pacman -Sy
-pacstrap /mnt base linux linux-firmware grub vim net-tools
+pacstrap /mnt base linux linux-firmware grub vim net-tools networkmanager sudo dhcpcd
 
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt

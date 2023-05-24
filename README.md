@@ -8,3 +8,13 @@ A toy linux distribution for game development :)
 ## Build
 You can execute `local.*` (depends on your OS) to build the system.
 Before you start, make sure `docker` is available in your terminal.
+
+## Notes
+### Network
+After installation, if your network doesn't work, try:
+```bash
+ip link # see your device's name
+dhcpcd $DEVICE_NAME_HERE
+```
+
+see: [Arch Linux - connect: Network is unreachable](https://unix.stackexchange.com/questions/80493/arch-linux-connect-network-is-unreachable)
