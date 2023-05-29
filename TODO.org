@@ -4,5 +4,6 @@
 - State "Pending"    from              [2023-05-03 周三 22:03]
 ** Pending Install Gnome
 - State "Pending"    from              [2023-05-03 周三 22:04]
-** Pending Add calamares
+** In-Progress Add calamares
+- State "In-Progress" from "Pending"    [2023-05-24 周三 23:08]
 - State "Pending"    from              [2023-05-03 周三 22:04]
