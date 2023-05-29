@@ -129,3 +129,26 @@ os-prober
 # networking
 net-tools
 networkmanager
+
+# gpu driver
+nvidia
+nvidia-utils
+xf86-video-amdgpu
+xf86-video-fbdev
+xf86-video-vesa
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-ati
+mesa
+mesa-utils
+
+# desktop
+xorg
+xorg-xinput
+xf86-input-libinput
+sddm
+
+# fonts
+noto-fonts
+# noto-fonts-emoji
+# noto-fonts-cjk

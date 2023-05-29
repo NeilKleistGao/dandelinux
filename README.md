@@ -5,6 +5,8 @@ Dandelinux = Dandelion + Linux.
 
 A toy linux distribution for game development :)
 
+Adapted from [archcraft](https://github.com/archcraft-os/archcraft).
+
 ## Build
 You can execute `local.*` (depends on your OS) to build the system.
 Before you start, make sure `docker` is available in your terminal.
