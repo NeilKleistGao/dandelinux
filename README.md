@@ -53,7 +53,7 @@ arch-chroot /mnt
 ```
 
 You can find the init script in `/home/init.sh`.
-You can update your time zone and/or host name.
+You can update your time zone, username, and host name.
 
 After `chmod 777 /home/init.sh`, execute `/home/init.sh`
 and set password for the `root` user.

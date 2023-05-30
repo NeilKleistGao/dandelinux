@@ -5,6 +5,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 HOST_NAME=dandelinux
 TIME_ZONE=Asia/Shanghai
+USERNAME=NeilKleistGao
 
 ln -sf /usr/share/zoneinfo/$TIME_ZONE /etc/localtime
 hwclock --systohc
@@ -22,3 +23,7 @@ echo "127.0.1.1        $HOST_NAME.localdomain        $HOST_NAME" >> /etc/hosts
 systemctl enable --now NetworkManager
 
 passwd
+
+useradd -m -G wheel $USERNAME
+passwd $USERNAME
+echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers.tmp
