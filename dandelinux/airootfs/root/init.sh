@@ -21,6 +21,7 @@ echo "::1              localhost" >> /etc/hosts
 echo "127.0.1.1        $HOST_NAME.localdomain        $HOST_NAME" >> /etc/hosts
 
 systemctl enable --now NetworkManager
+systemctl enable gdm
 
 passwd
 
