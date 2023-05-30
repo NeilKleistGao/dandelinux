@@ -1,8 +1,0 @@
-* v0.0.2
-** In-Progress Add necessary packages in packages.x86_64
-- State "In-Progress" from "Pending"    [2023-05-09 周二 20:17]
-- State "Pending"    from              [2023-05-03 周三 22:03]
-** Pending Install Gnome
-- State "Pending"    from              [2023-05-03 周三 22:04]
-** Pending Add calamares
-- State "Pending"    from              [2023-05-03 周三 22:04]

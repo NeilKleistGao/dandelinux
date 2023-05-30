@@ -1,0 +1,16 @@
+# basic
+base
+linux
+linux-firmware
+sudo
+
+# grub
+grub
+
+# editors
+vim
+
+# networks
+net-tools
+networkmanager
+dhcpcd
