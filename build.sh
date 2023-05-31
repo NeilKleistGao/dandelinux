@@ -2,6 +2,7 @@
 
 echo "starting build dandelinux..."
 
+pacman -Syu
 pacman -Sy --needed sudo archiso --noconfirm
 
 # copy config files

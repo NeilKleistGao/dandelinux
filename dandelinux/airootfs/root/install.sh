@@ -17,7 +17,7 @@ mount $MAIN_PART /mnt
 mkdir /mnt/boot
 mount $MAIN_PART /mnt/boot
 
-pacman -Sy
+pacman -Syu
 cat preinstall.x86_64 | while read line
 do
   if [[ $line == \#* ]]

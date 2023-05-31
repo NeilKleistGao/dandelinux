@@ -1,5 +1,6 @@
 # basic
 base
+base-devel
 linux
 linux-firmware
 sudo
@@ -9,6 +10,7 @@ grub
 
 # editors
 vim
+nano
 
 # networks
 net-tools
@@ -24,3 +26,6 @@ mesa-utils
 xorg
 gdm
 gnome
+
+# utils
+git

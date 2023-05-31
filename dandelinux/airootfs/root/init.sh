@@ -27,4 +27,7 @@ passwd
 
 useradd -m -G wheel $USERNAME
 passwd $USERNAME
-echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers.tmp
+
+touch /etc/sudoers.d/42
+echo "root ALL=(ALL) ALL" >> /etc/sudoers.d/42
+echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers.d/42
