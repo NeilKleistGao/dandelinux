@@ -36,6 +36,5 @@ echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 echo "[archlinuxcn]" >> /etc/pacman.conf
 echo "Server = https://mirrors.bfsu.edu.cn/archlinuxcn/\$arch" >> /etc/pacman.conf
-# pacman -Syu && pacman -S archlinuxcn-keyring
 
-# pacman -Sy yay --noconfirm
+chmod 777 /home/post.sh

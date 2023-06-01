@@ -4,6 +4,8 @@ base-devel
 linux
 linux-firmware
 sudo
+intel-ucode
+amd-ucode
 
 # grub
 grub
@@ -29,7 +31,23 @@ gnome
 
 # utils
 git
+qv2ray
+ffmpeg
 
 # fonts
 ttf-sarasa-gothic
 noto-fonts-cjk
+
+# program languages
+core/gcc
+gcc
+cmake
+python
+python-pip
+dotnet-sdk
+nodejs
+npm
+
+# libraries
+libgl
+vulkan-tools

@@ -30,4 +30,6 @@ do
 done
 
 genfstab -U /mnt >> /mnt/etc/fstab
-mv init.sh /mnt/home/init.sh
+cp init.sh /mnt/home/init.sh
+cp post.sh /mnt/home/post.sh
+cp software.x86_64 /mnt/home/software.x86_64

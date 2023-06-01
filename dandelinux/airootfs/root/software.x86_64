@@ -1,0 +1,29 @@
+# programming languages
+jdk11-openjdk
+
+# editors
+visual-studio-code-bin
+clion
+clion-cmake
+clion-gdb
+
+# chat
+discord
+feishu-bin
+
+# input
+fcitx
+fcitx-im
+fcitx-configtool
+fcitx-sunpinyin
+fcitx-googlepinyin
+fcitx-cloudpinyin
+fcitx-libpinyin
+
+# multimedia
+netease-cloud-music
+qcef
+obs-studio
+
+# utils
+subversion
