@@ -29,3 +29,7 @@ gnome
 
 # utils
 git
+
+# fonts
+ttf-sarasa-gothic
+noto-fonts-cjk
