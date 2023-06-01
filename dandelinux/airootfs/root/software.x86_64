@@ -2,7 +2,6 @@
 jdk11-openjdk
 
 # editors
-visual-studio-code-bin
 clion
 clion-cmake
 clion-gdb
@@ -15,15 +14,20 @@ feishu-bin
 fcitx
 fcitx-im
 fcitx-configtool
-fcitx-sunpinyin
-fcitx-googlepinyin
-fcitx-cloudpinyin
-fcitx-libpinyin
+iflyime
 
 # multimedia
 netease-cloud-music
 qcef
 obs-studio
+steam
 
 # utils
 subversion
+qv2ray
+
+# browser
+google-chrome
+
+# game development
+godot-mono
