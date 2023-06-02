@@ -6,7 +6,6 @@ linux-firmware
 sudo
 intel-ucode
 amd-ucode
-zsh
 
 # grub
 grub

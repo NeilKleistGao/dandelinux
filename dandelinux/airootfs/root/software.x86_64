@@ -14,20 +14,12 @@ feishu-bin
 fcitx
 fcitx-im
 fcitx-configtool
-iflyime
 
 # multimedia
 netease-cloud-music
-qcef
 obs-studio
 steam
 
 # utils
 subversion
 qv2ray
-
-# browser
-google-chrome
-
-# game development
-godot-mono
