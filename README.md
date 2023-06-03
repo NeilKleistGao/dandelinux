@@ -61,4 +61,5 @@ and set password for the `root` user.
 After rebooting, you can enjoy your OS!
 
 ### Software Installation
-TODO:
+We prepared some useful software. You can execute `/home/post.sh` to install them automatically,
+The software list is in `/home/software.x86_64`.
