@@ -5,6 +5,8 @@ Dandelinux = Dandelion + Linux.
 
 A toy linux distribution for game development :)
 
+The awesome configuration is adapted from [manilarome/the-glorious-dotfiles](https://github.com/manilarome/the-glorious-dotfiles).
+
 ## Build
 You can execute `local.*` (depends on your OS) to build the system.
 Before you start, make sure `docker` is available in your terminal.
@@ -63,3 +65,5 @@ After rebooting, you can enjoy your OS!
 ### Software Installation
 We prepared some useful software. You can execute `/home/post.sh` to install them automatically,
 The software list is in `/home/software.x86_64`.
+
+After installation, please reboot your device.

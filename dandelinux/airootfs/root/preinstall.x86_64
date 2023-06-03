@@ -29,7 +29,8 @@ mesa-utils
 xorg
 gdm
 gnome
-awesome
+rofi
+picom
 
 # utils
 git

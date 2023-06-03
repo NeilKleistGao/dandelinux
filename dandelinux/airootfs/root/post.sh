@@ -21,12 +21,12 @@ echo "export GTK_IM_MODULE=fcitx" >> ~/.xprofile
 echo "export QT_IM_MODULE=fcitx" >> ~/.xprofile
 echo "export XMODIFIERS=\"@im=fcitx\"" >> ~/.xprofile
 
-chsh -s /usr/bin/zsh
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
 sh -c "$(curl -fssL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp dotfiles/.zshrc ~/.zshrc
 cp dotfiles/.p10k.zsh ~/.p10k.zsh
 
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
-
-git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
+chsh -s /usr/bin/zsh
