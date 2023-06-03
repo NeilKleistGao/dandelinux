@@ -59,3 +59,6 @@ After `chmod 777 /home/init.sh`, execute `/home/init.sh`
 and set password for the `root` user.
 
 After rebooting, you can enjoy your OS!
+
+### Software Installation
+TODO:

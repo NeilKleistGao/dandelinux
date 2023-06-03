@@ -9,8 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/neilkleistgao/.oh-my-zsh"
-export PATH="/home/neilkleistgao/stack:$PATH"
+export ZSH="/home/NeilKleistGao/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,16 +109,3 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.10.1-complete.jar" org.antlr.v4.Tool'
-alias grun='java org.antlr.v4.runtime.misc.TestRig'
-alias clang-format='clang-format-13'
-alias python='python3'
-
-# source "/home/neilkleistgao/emsdk/emsdk_env.sh"
-# export JAVA_HOME=/usr/bin
-
-eval $(thefuck --alias)
-
-# opam configuration
-test -r /home/neilkleistgao/.opam/opam-init/init.zsh && . /home/neilkleistgao/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
