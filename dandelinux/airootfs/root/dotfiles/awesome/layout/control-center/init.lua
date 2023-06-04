@@ -3,7 +3,7 @@ local wibox = require('wibox')
 local gears = require('gears')
 local beautiful = require('beautiful')
 local dpi = beautiful.xresources.apply_dpi
-panel_visible = false
+panel_visible = true
 
 local format_item = function(widget)
 	return wibox.widget {
@@ -78,79 +78,6 @@ local control_center_row_one = wibox.widget {
 	}
 }
 
-local main_control_row_two = wibox.widget {
-	layout = wibox.layout.flex.horizontal,
-	spacing = dpi(10),
-	format_item_no_fix_height(
-		{
-			layout = wibox.layout.fixed.vertical,
-			spacing = dpi(5),
-			require('widget.airplane-mode'),
-			require('widget.bluetooth-toggle'),
-			require('widget.blue-light')
-		}
-	),
-	{
-		layout = wibox.layout.flex.vertical,
-		spacing = dpi(10),
-		format_item_no_fix_height(
-			{
-				layout = wibox.layout.align.vertical,
-				expand = 'none',
-				nil,
-				require('widget.dont-disturb'),
-				nil
-			}
-		),
-		format_item_no_fix_height(
-			{
-				layout = wibox.layout.align.vertical,
-				expand = 'none',
-				nil,
-				require('widget.blur-toggle'),
-				nil
-			}
-		)
-	}
-}
-
-local main_control_row_sliders = wibox.widget {
-	layout = wibox.layout.fixed.vertical,
-	spacing = dpi(10),
-	format_item(
-		{
-			require('widget.blur-slider'),
-			margins = dpi(10),
-			widget = wibox.container.margin
-		}
-	),
-	format_item(
-		{
-			require('widget.brightness-slider'),
-			margins = dpi(10),
-			widget = wibox.container.margin
-		}
-	),
-	format_item(
-		{
-			require('widget.volume-slider'),
-			margins = dpi(10),
-			widget = wibox.container.margin
-		}
-	)
-}
-
-local main_control_music_box = wibox.widget {
-	layout = wibox.layout.fixed.vertical,
-	format_item(
-		{
-			require('widget.mpd'),
-			margins = dpi(10),
-			widget = wibox.container.margin
-		}
-	)
-}
-
 local monitor_control_row_progressbars = wibox.widget {
 	layout = wibox.layout.fixed.vertical,
 	spacing = dpi(10),
@@ -182,15 +109,6 @@ local control_center = function(s)
 					control_center_row_one,
 					{
 						layout = wibox.layout.stack,
-						{
-							id = 'main_control',
-							visible = true,
-							layout = wibox.layout.fixed.vertical,
-							spacing = dpi(10),
-							main_control_row_two,
-							main_control_row_sliders,
-							main_control_music_box
-						},
 						{
 							id = 'monitor_control',
 							visible = false,

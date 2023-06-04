@@ -8,19 +8,15 @@ return {
 		-- Default terminal emulator
 		terminal = 'kitty',
 		-- Default web browser
-		web_browser = 'firefox',
+		web_browser = 'chrome',
 		-- Default text editor
-		text_editor = 'subl3',
+		text_editor = 'code',
 		-- Default file manager
-		file_manager = 'dolphin',
+		file_manager = '',
 		-- Default media player
 		multimedia = 'vlc',
 		-- Default game, can be a launcher like steam
-		game = 'supertuxkart',
-		-- Default graphics editor
-		graphics = 'gimp-2.10',
-		-- Default sandbox
-		sandbox = 'virtualbox',
+		game = 'steam',
 		-- Default IDE
 		development = '',
 		-- Default network manager

@@ -22,10 +22,13 @@ netease-cloud-music
 qcef
 obs-studio
 steam
+vlc
 
 # utils
 subversion
 qv2ray
+kitty
+dolphin
 
 # browser
 google-chrome
@@ -35,6 +38,27 @@ godot-mono
 
 # fonts
 nerd-fonts-inter
+noto-fonts-emoji
 
 # desktop
 awesome-git
+light-git
+alsa-utils
+pulseaudio
+pulseaudio-alsa
+acpi
+acpid
+acpi_call
+mpd
+mpc
+maim
+feh
+xclip
+imagemagick
+blueman
+redshift
+xfce4-power-manager
+upower
+xdg-user-dirs
+iproute2
+iwd

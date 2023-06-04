@@ -29,4 +29,6 @@ cp /home/dotfiles/.zshrc ~/.zshrc
 cp /home/dotfiles/.p10k.zsh ~/.p10k.zsh
 cp -r /home/dotfiles/awesome ~/.config/awesome
 
+xfconf-query -c xfce4-session -p /sessions/Failsafe/Client0_Command -t string -s "awesome" -a
+
 chsh -s /usr/bin/zsh

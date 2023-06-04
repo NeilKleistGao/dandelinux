@@ -66,4 +66,8 @@ After rebooting, you can enjoy your OS!
 We prepared some useful software. You can execute `/home/post.sh` to install them automatically,
 The software list is in `/home/software.x86_64`.
 
+In system settings, modify the `Current Session`:
+- Set `xfce4-panel`, `Thunar`, and `xfdesktop` as `Never`
+- Save this session
+
 After installation, please reboot your device.

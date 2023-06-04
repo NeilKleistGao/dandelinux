@@ -31,8 +31,6 @@ lightdm
 lightdm-gtk-greeter
 xfce4
 xfce4-goodies
-rofi
-picom
 
 # utils
 git
