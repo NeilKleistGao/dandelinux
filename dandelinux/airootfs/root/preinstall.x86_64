@@ -27,8 +27,10 @@ nvidia-utils
 mesa
 mesa-utils
 xorg
-gdm
-gnome
+lightdm
+lightdm-gtk-greeter
+xfce4
+xfce4-goodies
 rofi
 picom
 

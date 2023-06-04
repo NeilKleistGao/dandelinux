@@ -22,9 +22,11 @@ echo "export QT_IM_MODULE=fcitx" >> ~/.xprofile
 echo "export XMODIFIERS=\"@im=fcitx\"" >> ~/.xprofile
 
 sh -c "$(curl -fssL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
-cp dotfiles/.zshrc ~/.zshrc
-cp dotfiles/.p10k.zsh ~/.p10k.zsh
-cp -r dotfiles/awesome ~/.config/awesome
+
+cp /home/dotfiles/.zshrc ~/.zshrc
+cp /home/dotfiles/.p10k.zsh ~/.p10k.zsh
+cp -r /home/dotfiles/awesome ~/.config/awesome
 
 chsh -s /usr/bin/zsh
