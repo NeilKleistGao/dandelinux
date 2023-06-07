@@ -49,6 +49,8 @@ python-pip
 dotnet-sdk
 nodejs
 npm
+texlive-core
+texlive-langchinese
 
 # libraries
 libgl
