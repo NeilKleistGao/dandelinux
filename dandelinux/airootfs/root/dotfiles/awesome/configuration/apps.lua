@@ -12,13 +12,13 @@ return {
 		-- Default text editor
 		text_editor = 'code',
 		-- Default file manager
-		file_manager = '',
+		file_manager = 'nemo',
 		-- Default media player
 		multimedia = 'vlc',
 		-- Default game, can be a launcher like steam
 		game = 'steam',
 		-- Default IDE
-		development = '',
+		development = 'code',
 		-- Default network manager
 		network_manager = 'kitty iwctl',
 		-- Default bluetooth manager

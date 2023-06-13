@@ -27,8 +27,6 @@ vlc
 # utils
 subversion
 qv2ray
-kitty
-dolphin
 wps-office
 
 # browser
@@ -63,3 +61,7 @@ upower
 xdg-user-dirs
 iproute2
 iwd
+kitty
+nemo
+picom-git
+rofi
