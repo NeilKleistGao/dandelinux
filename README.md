@@ -67,7 +67,10 @@ We prepared some useful software. You can execute `/home/post.sh` to install the
 The software list is in `/home/software.x86_64`.
 
 In system settings, modify the `Current Session`:
-- Set `xfce4-panel`, `Thunar`, and `xfdesktop` as `Never`
+- Set `xfce4-panel`, `Thunar`, `xfdesktop`, and `xfwm4` as `Never`
 - Save this session
+- Add `awesome` into autostart application list
+
+Also modify the keyboard shortcut settings: remove all existing key shortcuts.
 
 After installation, please reboot your device.
