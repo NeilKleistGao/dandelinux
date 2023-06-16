@@ -60,6 +60,7 @@ xfce4-power-manager
 upower
 xdg-user-dirs
 iproute2
+wpa_supplicant
 iwd
 kitty
 nemo
