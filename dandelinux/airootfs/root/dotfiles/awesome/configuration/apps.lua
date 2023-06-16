@@ -34,8 +34,11 @@ return {
 		-- Default app menu
 		rofi_appmenu = 'rofi -dpi ' .. screen.primary.dpi ..
 							' -show drun -theme ' .. config_dir ..
-							'/configuration/rofi/appmenu/rofi.rasi'
-
+							'/configuration/rofi/appmenu/launchpad.rasi',
+		-- Quick app menu
+		rofi_quick_appmenu = 'rofi -dpi ' .. screen.primary.dpi ..
+							' -show drun -theme ' .. config_dir ..
+							'/configuration/rofi/appmenu/spotlight-dark.rasi'
 		-- You can add more default applications here
 	},
 
