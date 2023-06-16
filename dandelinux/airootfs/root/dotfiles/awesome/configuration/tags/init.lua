@@ -44,33 +44,7 @@ local tags = {
 		default_app = apps.default.game,
 		gap = beautiful.useless_gap,
 		layout = awful.layout.suit.floating
-	},
-	{
-		type = 'graphics',
-		icon = icons.graphics,
-		default_app = apps.default.graphics,
-		gap = beautiful.useless_gap
-	},
-	{
-		type = 'sandbox',
-		icon = icons.sandbox,
-		default_app = apps.default.sandbox,
-		layout = awful.layout.suit.max,
-		gap = 0
-	},
-	{
-		type = 'any',
-		icon = icons.development,
-		default_app = apps.default.development,
-		gap = beautiful.useless_gap,
-		layout = awful.layout.suit.floating
 	}
-	-- {
-	--   type = 'social',
-	--   icon = icons.social,
-	--   default_app = 'discord',
-	--   gap = beautiful.useless_gap
-	-- }
 }
 
 -- Set tags layout

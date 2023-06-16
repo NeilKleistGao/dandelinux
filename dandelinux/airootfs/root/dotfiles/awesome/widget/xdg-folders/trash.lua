@@ -26,7 +26,7 @@ local create_widget = function()
 				'Open trash',
 				function()
 					awful.spawn.easy_async_with_shell(
-						'gio open trash:///', 
+						'xdg-open trash:///', 
 						function(stdout) end,
 						1
 					) 
@@ -87,7 +87,7 @@ local create_widget = function()
 				1,
 				nil,
 				function()
-					awful.spawn({'gio', 'open', 'trash:///'}, false)
+					awful.spawn.with_shell('xdg-open trash:///')
 				end
 			),
 			awful.button(

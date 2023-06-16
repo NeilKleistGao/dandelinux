@@ -447,14 +447,6 @@ local global_keys = awful.util.table.join(
 		{description = 'open application drawer', group = 'launcher'}
 	),
 	awful.key(
-		{modkey, 'Shift'},
-		'x',
-		function()
-			awful.spawn(apps.default.rofi_global, false)
-		end,
-		{description = 'open global search', group = 'launcher'}
-	),
-	awful.key(
 		{modkey},
 		'r',
 		function()
