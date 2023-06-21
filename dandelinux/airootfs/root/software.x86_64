@@ -2,10 +2,8 @@
 jdk11-openjdk
 
 # editors
-clion
-clion-cmake
-clion-gdb
 visual-studio-code-bin
+neovim
 
 # chat
 discord
