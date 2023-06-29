@@ -24,6 +24,7 @@ dhcpcd
 xf86-video-amdgpu
 nvidia
 nvidia-utils
+optimus-manager
 mesa
 mesa-utils
 xorg
@@ -35,6 +36,7 @@ xfce4-goodies
 # utils
 git
 ffmpeg
+openssh
 
 # fonts
 ttf-sarasa-gothic

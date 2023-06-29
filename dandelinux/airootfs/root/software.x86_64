@@ -3,7 +3,6 @@ jdk11-openjdk
 
 # editors
 visual-studio-code-bin
-neovim
 
 # chat
 discord
@@ -32,6 +31,7 @@ google-chrome
 
 # game development
 godot-mono
+blender
 
 # fonts
 nerd-fonts-inter
