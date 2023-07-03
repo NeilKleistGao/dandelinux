@@ -28,7 +28,12 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/th
 cp /home/dotfiles/.zshrc ~/.zshrc
 cp /home/dotfiles/.p10k.zsh ~/.p10k.zsh
 cp -r /home/dotfiles/awesome ~/.config/awesome
+cp -r /home/dotfiles/Code ~/.config/Code
 
 xfconf-query -c xfce4-session -p /sessions/Failsafe/Client0_Command -t string -s "awesome" -a
 
 chsh -s /usr/bin/zsh
+
+cd ~/.config/Code
+chmod 777 install.sh
+./install.sh
