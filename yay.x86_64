@@ -1,0 +1,31 @@
+# programming languages
+jdk11-openjdk
+
+# editors
+visual-studio-code-bin
+
+# chat
+feishu-bin
+
+# input
+fcitx
+fcitx-im
+fcitx-configtool
+fcitx-googlepinyin
+
+# multimedia
+netease-cloud-music
+qcef
+obs-studio
+vlc
+
+# utils
+subversion
+wps-office
+
+# browser
+google-chrome
+
+# game development
+godot-mono
+blender

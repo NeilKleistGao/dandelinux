@@ -1,0 +1,11 @@
+# program languages
+core/gcc
+gcc
+cmake
+python
+python-pip
+dotnet-sdk
+nodejs
+npm
+texlive-core
+texlive-langchinese
